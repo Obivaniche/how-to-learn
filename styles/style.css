@@ -3,7 +3,7 @@
 }*/
 
 /* задаем нулевые марджины для заголовков и параграфов */
-h1, h2, p {
+.header__title, .header__subtitle, .two-columns__brief, .two-columns__paragraph, .section-title, .section-subtitle, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .footer__author, .footer__column-heading {
   margin-top: 0;
   margin-bottom: 0;
 }
