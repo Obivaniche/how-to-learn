@@ -2,19 +2,6 @@
   border: 1px solid red;
 }*/
 
-/* задаем нулевые марджины для заголовков и параграфов */
-.header__title, .header__subtitle, .two-columns__brief, .two-columns__paragraph, .section-title, .section-subtitle, .table__heading, .table__text, .feynman__title, .feynman__subtitle, .footer__author, .footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* сбрасываем стили у элементов списка */
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -50,7 +37,7 @@ ul {
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -59,7 +46,8 @@ ul {
   z-index: 2;
 }
 
-.header__subtitle{
+.header__subtitle {
+  margin: 0;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
@@ -126,8 +114,7 @@ ul {
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
-  margin-top: 0;
+  margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -180,16 +167,14 @@ ul {
 }
 
 .table__heading {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   line-height: 1.2;
   font-size: 24px;
   font-weight: bolder;
 }
 
 .table__text {
-  margin-bottom: 0;
-  margin-top: 20px;
+  margin: 20px 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;  
@@ -284,8 +269,8 @@ ul {
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
+  
 }
 
 .table__heading_theme_dark {
@@ -343,8 +328,7 @@ ul {
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 18px 0 18px 0;
 }
 
 .footer__column-heading {
@@ -357,8 +341,14 @@ ul {
 }
 
 .footer__column-links {
-  margin-top: 20px;
-  margin-bottom: 16px;
+  margin: 20px 0 16px 0;
+}
+
+/* сбрасываем стили у элементов списка */
+.footer__column-links_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
