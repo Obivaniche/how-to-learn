@@ -1,4 +1,4 @@
-.logo__link_footer {
+.footer__logo-link {
     width: 183px;
     height: 35px;
     margin: 0;
@@ -6,6 +6,6 @@
     transition: opacity .4s linear;
 }
     
-.logo__link_footer:hover {
+.footer__logo-link:hover {
     opacity: .5;
 }
