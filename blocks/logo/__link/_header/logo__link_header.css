@@ -1,0 +1,15 @@
+.logo__link_header {
+    position: absolute;
+    left: 64px;
+    top: 30px;
+    width: 183px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    transition: opacity .4s linear;
+    z-index: 2;
+}
+    
+.logo__link_header:hover {
+    opacity: .5;
+}
