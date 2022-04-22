@@ -3,6 +3,8 @@
     height: 38px;
     margin: 0;
     padding: 0;
+    -webkit-transition: opacity .4s linear;
+    -o-transition: opacity .4s linear;
     transition: opacity .4s linear;
 }
 

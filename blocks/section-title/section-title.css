@@ -1,9 +1,13 @@
 .section-title {
-    display: flex;
-    margin: auto auto 20px auto;
-    justify-content: center;
-    width: 60%;
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bolder;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto auto 20px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bolder;
+}

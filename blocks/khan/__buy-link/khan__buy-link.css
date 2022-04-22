@@ -5,10 +5,13 @@
     font-size: 30px;
     font-weight: normal;
     color: #2f80ed;
+    -webkit-transition: opacity .4s linear;
+    -o-transition: opacity .4s linear;
     transition: opacity .4s linear;
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
 .khan__buy-link:hover {
     opacity: .5;
-  }
+}

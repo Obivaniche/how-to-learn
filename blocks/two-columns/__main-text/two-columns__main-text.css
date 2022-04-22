@@ -1,6 +1,11 @@
 .two-columns__main-text {
-    display: flex;
-    width: 80%;
-    min-width: 784px;
-    flex-direction: column;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-width: 784px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
