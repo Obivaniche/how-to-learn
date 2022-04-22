@@ -1,6 +1,10 @@
 .cards__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
     margin: 43px auto 0;
     line-height: 1.15;
