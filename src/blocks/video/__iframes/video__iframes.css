@@ -1,9 +1,0 @@
-.video__iframes {
-    margin: 50px auto -60px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
